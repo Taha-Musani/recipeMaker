@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find a Meal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Find a Meal for Your Ingredient</h2>
+      <div class="quote">
+        <p>
+          The ambition of every good cook must be to make something very good
+          with the fewest possible ingredients.
+        </p>
+        <span>-Urbain Dubois</span>
+      </div>
+      <div class="search">
+        <input type="text" id="text" placeholder="Enter The Ingredient" />
+        <img class="search_img" src="search.svg" alt="search button" />
+        <ul>
+        </ul>
+      </div>
+      <h1 class="heading">Your Search Result:</h1>
+    </div>
+    <div class="overlay"></div>
+    <div class="recipe_des">
+      <img class="close" src="xmark.svg" alt="cross" />
+      <p class="recipe_description"></p>
+      <a class="link" href="">Watch Video</a>
+    </div>
+    <div class="result_container"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
